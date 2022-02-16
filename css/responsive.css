@@ -692,12 +692,12 @@
     .box-roadmap .nav-roadmap .textbox .roadmap-text6 {
         margin-top: 39px;
     }
-    .brands_slider_desktop {
+    /* .brands_slider_desktop {
         display: none;
-    }
-    .brands_slider_monile {
+    } */
+    /* .brands_slider_monile {
         display: block;
-    }
+    } */
     .mountain-mask {
         display: none;
     }
@@ -1232,5 +1232,29 @@
     .carousel-control-next,
     .carousel-control-prev {
         margin-top: -120px;
+    }
+    .icon-box-partner-end {
+        margin-left: 0;
+    }
+    .brands_item img {
+        width: 48px!important;
+        height: 40px!important;
+        margin-top: 0px!important;
+    }
+}
+
+@media screen and (max-width: 324px) {
+    .nftsdragon {
+        display: none;
+    }
+    .nav-mobile-col1 {
+        display: none;
+    }
+    .box-token .allocation-circle img {
+        width: 100%;
+    }
+    .box-coreteam .nav-core .avatar img {
+        width: 100%;
+        height: auto;
     }
 }

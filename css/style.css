@@ -159,7 +159,7 @@ body {}
     height: 860px;
     width: 100%;
     margin-top: -120px;
-    z-index: -1;
+    /* z-index: -1; */
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -291,6 +291,15 @@ body {}
 .brands_slider_container {
     padding-left: 104px;
     padding-right: 97px;
+}
+
+.brands_slider_container .carousel {
+    position: relative;
+    text-align: center;
+}
+
+.brands_slider_container .owl-item {
+    display: inline-block;
 }
 
 .brands_slider {
