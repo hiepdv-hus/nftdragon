@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <meta name="keywords" content="XDrake">
+    <meta name="description" content="XDrake">
+    <title>XDrake</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+	<meta name="robots" content="index,follow" />
+		<meta name="googlebot" content="index,follow,noarchive" />
+		<meta property="og:url" content="https://XDrake.io/" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="XDrake - Play to Earn NFT Game" />
+		<meta property="og:description" content="XDrake" />
+		<meta property="og:image" content="https://XDrake.io/images/THUMB.jpg" />
+		<meta property="og:image:url" content="https://xdrake.io/images/THUMB.jpg" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css?v=1234675689">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/responsive.css?v=99823237467334">
+    <link rel="stylesheet" href="css/reset.css">
+    <style type="text/css">
+    	.collapse.in {
+    		display: block;
+    	}
+    	.header {
+    		position: fixed;
+    		top: 0;
+    		z-index: 99999999;
+    	}
+    	.top-slider {
+    		margin-top: 108px;
+    	}
+    	.owl-stage {
+    		margin: 0 auto;
+    	}
+    	#game-play {
+    		position: absolute;
+    		top: -150px;
+    	}
+    	#road-map {
+    		position: absolute;
+    		top: -50px;
+    	}
+    	.nav-item {
+    		width: max-content;
+    	}
+		/* width */
+		::-webkit-scrollbar {
+		  width: 10px;
+		}
+		
+		/* Track */
+		::-webkit-scrollbar-track {
+		  background: #23263d; 
+		}
+		 
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+		  background: #ffc107;
+		}
+		
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+		  background: #ffb007; 
+		}
+    </style>
+  </head>
+
+  <body >
+    <!-- Top header navbar -->
+    <section class="header">
+		<div class="line-header-top"><img src="images/Line-Top.png" alt="line" /></div>
+        <header class="top-header">
+          <div class="w-100 top-header-bg">
+			<div class="container">
+			<div class="row">
+				<div class="col-md-1">
+					<a href="#" class="drake-logo"><img src="images/Logo.png" alt="logo" width="124px"/></a>
+				</div>
+				<div class="col-md-8">
+					<!--Menu-->
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					  <a class="navbar-brand" href="#">&nbsp;</a>
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
+					  <div class="collapse navbar-collapse pt-3" id="navbarNav">
+						<ul class="navbar-nav">
+						  <li class="nav-item">
+							<a class="nav-link" href="#nfts-dragon" title="NFTs Dragon">NFTs Dragon</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#game-play" title="Gameplay">Gameplay</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#road-map" title="Road Map">Road Map</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#Tokenomics" title="Tokenomics">Tokenomics</a>
+						  </li>
+						  <!--<li class="nav-item">
+							<a class="nav-link" href="wpp/our-team.html" title="team">Team</a>
+						  </li>-->
+						  <li class="nav-item">
+							<a class="nav-link" href="#partners" title="Partners">Partners</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" title="Whitepaper" href="https://docs.xdrake.io">Whitepaper</a>
+						  </li>
+						  <li class="nav-item">
+								<a class="nav-link" title="Pitchdeck" href="https://xdrake.io/XDrake_Pitchdeck.pdf">Pitchdeck</a>
+						  </li>					
+						  <!-- Mobile-->
+						  <li class="nav-item menu-mobile-follow-nav">
+							<div class="menu-mobile-follow">
+								<div class="mobile-follow">
+									<span>Join us on</span>
+								</div>
+								<div class="mobile-follow">
+									<a href="https://twitter.com/DrakinIslands"><img src="images/twitter.png" class="mr-2" alt=""/></a>
+									<a href="https://t.me/drakinislands"><img src="images/icon1.png" class="mr-2" alt=""/></a>
+									<a href="https://discord.gg/hK93BsWdBH"><img src="images/icon2.png" class="mr-2" alt=""/></a>
+								</div>
+								<div class="mobile-follow-close">
+									<img class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" src="images/Button-Close.png" alt="close" />
+								</div>
+							</div>
+						  </li>
+						  <!--End Mobile-->
+						</ul>
+					  </div>
+					</nav>
+				</div>
+				<!--<div class="col-md-3 pt-4 ">
+					<div class="float-right nav-follow">
+						<a href="https://twitter.com/DrakinIslands"><img src="images/twitter.png" alt=""/></a>
+						<a href="https://t.me/drakinislands"><img src="images/icon1.png" alt=""/></a>
+						<a href="https://discord.gg/hK93BsWdBH"><img src="images/icon2.png" alt=""/></a>
+						<a href="facebook.com/DrakinIslandsOfficial"><img src="images/social-5.png" alt=""/></a>
+						<select class=" language-top" aria-label="Language">
+						  <option style="background-color: #23263d;" value="1">EN</option>
+						  <option style="background-color: #23263d;" value="2">VN</option>
+						</select>
+					</div>
+				</div>-->
+				<img class="line1" src="images/line1.png" alt="" />
+			</div>
+				
+			</div>
+			
+		  </div>
+		  
+        </header>
+		
+    </section>
+    <!--Slider -->
+    <section class="top-slider">
+        <div class="w-100">
+			
+            <div class="slider-background">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 slider-slogan">
+							<!--<div class="col-md-12" style="text-align: center;">
+								<img class="text-slogan-slider" src="images/Goldennew.png" alt=""/>
+							</div>-->
+							<div class="col-md-12">
+								<div class="slogan-logo" style="margin-left: 0px;">
+									<img src="images/dark.png" alt=""/>		
+								</div>
+							</div>
+							<div class="col-md-12">
+								<p class="slider-text">XDrake brings you into a fantasy world, role-playing and experiencing fascinating quests. 
+									The game is built on Blockchain with the desire to make it possible for all players to explore, fight and bring profit together</p>							
+							</div>
+						</div>
+						<div class="col-md-6"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row line-slider">
+				<img src="images/Subtract-Line.png" alt=""/>
+			</div>
+			<div class="row">
+				<div class="container">
+					<div class="button-play">
+						<a href="#"><img src="images/Button.png" alt=""/></a>
+					</div>
+				</div>
+			</div>
+        </div>
+    </section>
+	<!--Content -->
+	<section class="content">
+		<!--Content box video -->
+        <div class="w-100">
+			<div class="content-bg">
+				<div class="row">
+					<div class="ball-1">
+						<img src="images/Ball-2.png" alt=""/>
+					</div>
+				</div>
+				<div class="row ball-text">
+					<div class="container">
+						<div class="row">					
+							<div class="col-md-6">									
+								<div class="row">
+									<div class="col-md-12">
+										<img class="title-blockchain-desktop" src="images/title-sec1.png" alt="" height="120px"/>
+										<img class="line-ball" src="images/Line.png" alt=""/>
+										<img class="title-blockchain-mobile" src="images/Title-blockhain-mobile.png" alt=""/>
+									</div>
+									<div class="col-md-12 video-text-desktop">
+										<ul>
+											<li>Attractive plot with beautiful graphics</li>
+											<li>Diversified reward system</li>
+											<li>Allows ownership and exchange NFTs flexibly</li>
+											<li>Economic policy in Sustainable Game</li>
+											<li>Builds Metaverse version in 2022</li>
+											<li>Multi-chain development</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 nav-video">
+								<div class="box-video">
+									<!--<video width="686" height="390" controls>
+										<source src="images/trailer1.webm" type="video/mp4">
+										
+									  Your browser does not support the video tag.
+									  </video>-->
+									<iframe width="686" height="390" src="https://www.youtube.com/embed/zMVWx5FfbQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								
+								<div class="ball-2">
+									<img src="images/Ball-3.png" alt=""/>
+								</div>
+							</div>
+							<!-- Moibile -->
+							<div class="col-md-12 video-text-mobile">
+										<ul>
+											<li>Attractive plot with beautiful graphics</li>
+											<li>Diversified reward system</li>
+											<li>Allows ownership and exchange NFTs flexibly</li>
+											<li>Economic policy in Sustainable Game</li>
+											<li>Builds Metaverse version in 2022</li>
+											<li>Multi-chain development</li>
+										</ul>
+									</div>
+						</div>
+					</div>
+				</div>
+				<!--Content box character -->
+				<div class="w-100">
+					<div id="nfts-dragon" class="row">
+						<div class="ball-3">
+								<img src="images/Ball-1.png" alt=""/>
+							</div>
+					</div>	
+					<div class="row drakin-heroes">
+						<div class="container">
+							<div class="col-md-12 drakin-text">
+									<img src="images/h-nftdrg.png" height="82px" alt=""/>
+							</div>
+							
+							<div class="col-md-12 brands_slider_desktop">
+							
+									<div class="brands_slider_container">
+												 
+									<!-- HTML to write -->
+						<div class="owl-carousel owl-theme brands_slider_desktop nav-pills">
+											
+
+											
+											<div class="owl-item">
+													<a data-toggle="pill" href="#menu3">
+														<div class="brands_item d-flex flex-column justify-content-center"><img width="90" style="margin-top: -8px;" height="80" src="images/ic-fire.png" alt=""></div>
+													</a>
+											</div>
+											<div class="owl-item">
+													<a data-toggle="pill" href="#menu4">
+														<div class="brands_item d-flex flex-column justify-content-center"><img width="90" style="margin-top: -8px;" height="80" src="images/ic-lighting.png" alt=""></div>
+													</a>
+											</div>
+											<div class="owl-item">
+													<a data-toggle="pill" href="#menu5">
+														<div class="brands_item d-flex flex-column justify-content-center"><img width="90" style="margin-top: -18px;" height="100" src="images/ic-forest.png" alt=""></div>
+													</a>
+											</div>
+											<div class="owl-item">
+													<a data-toggle="pill" href="#menu6">
+														<div class="brands_item d-flex flex-column justify-content-center"><img width="90" style="margin-top: -8px;" height="80" src="images/ic-ice.png" alt=""></div>
+													</a>
+											</div>
+											<div class="owl-item">
+													<a data-toggle="pill" href="#menu7">
+														<div class="brands_item d-flex flex-column justify-content-center"><img width="90" style="margin-top: -8px;" height="80" src="images/ic-dark.png" alt=""></div>
+													</a>
+											</div>
+											
+										</div> <!-- Brands Slider Navigation -->
+										<div class="brands_nav brands_prev"></div>
+										<div class="brands_nav brands_next"></div>
+									</div>
+							</div>
+						
+						<!-- Slider Mobile Character -->
+						<div class="col-md-12 brands_slider_monile">
+									<div class="brands_slider_container">
+										<!-- HTML to write -->
+						<div class="owl-carousel owl-theme brands_slider_mobile">
+											<div class="owl-item">
+													<a data-toggle="pill" href="#menu3">
+														<div class="brands_item d-flex flex-column justify-content-center"><img width="65" style="margin-top: -8px;" height="80" src="images/ic-fire.png" alt=""></div>
+													</a>
+											</div>
+											<div class="owl-item">
+													<a data-toggle="pill" href="#menu4">
+														<div class="brands_item d-flex flex-column justify-content-center"><img width="65" style="margin-top: -8px;" height="80" src="images/ic-lighting.png" alt=""></div>
+													</a>	
+											</div>
+											<div class="owl-item">
+													<a data-toggle="pill" href="#menu5">
+														<div class="brands_item d-flex flex-column justify-content-center"><img width="65" style="margin-top: -18px;" height="80" src="images/ic-forest.png" alt=""></div>
+													</a>	
+											</div>
+											<div class="owl-item">
+													<a data-toggle="pill" href="#menu6">
+														<div class="brands_item d-flex flex-column justify-content-center"><img width="65" style="margin-top: -8px;" height="80" src="images/ic-ice.png" alt=""></div>
+													</a>
+											</div>									
+											<div class="owl-item">
+													<a data-toggle="pill" href="#menu7">
+														<div class="brands_item d-flex flex-column justify-content-center"><img width="65" style="margin-top: -8px;" height="80" src="images/ic-dark.png" alt=""></div>
+													</a>
+											</div>
+										</div> <!-- Brands Slider Navigation -->
+										<div class="brands_nav brands_prev"></div>
+										<div class="brands_nav brands_next"></div>
+									</div>
+									</div>
+						</div>
+						<!--End  Slider Mobile Character -->
+						
+					</div>
+					<div class="row box-character tab-content">
+
+						
+
+						<div class="container tab-pane fade" id="menu3">
+							<div class="row">
+								
+									<div class="col-md-6 girl-char avatar-girl-desktop">
+										<img src="images/Fire_3.gif" width="358"  alt=""/>
+									</div>
+									<div class="col-md-6 girl-char avatar-girl-mobile">
+										<img src="images/Fire_3.gif" width="100%"alt=""/>
+									</div>
+									<div class="col-md-6">
+										<div class="row character-text-right">
+											<div class="col-md-12">
+												<span class="title-name">Glaurung</span><span class="title-class">Sacred fire power
+												</span>
+											</div>
+											<div class="col-md-12 text-content">
+												<p>     Fire Dragon used to be a powerful dragon race in the past. But because of its special ability, the Fire Dragon was imprisoned and being used as a weapon in the armies, gradually, they became extinct. Glaurung is a rare remaining of Fire Dragon that chosen to carry the most intense sacred flame. Glaurung's enormous body is covered with fire, it can blow fire endlessly and melt all things with its flame, even the strongest weapons.</p>
+												<div class="ball-4">
+													<img src="images/Ball-4.png" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+								
+							</div>
+						</div>
+
+						<div class="container tab-pane fade" id="menu4">
+							<div class="row">
+								
+									<div class="col-md-6 girl-char avatar-girl-desktop">
+										<img src="images/Lighting_31.gif" width="358"  alt=""/>
+									</div>
+									<div class="col-md-6 girl-char avatar-girl-mobile">
+										<img src="images/Lighting_31.gif" width="100%" alt=""/>
+									</div>
+									<div class="col-md-6">
+										<div class="row character-text-right">
+											<div class="col-md-12">
+												<span class="title-name">Longwei</span><span class="title-class">Light of Destruction</span>
+											</div>
+											<div class="col-md-12 text-content">
+												<p>Longwei rules the sky with the ability to absorb light as energy and use lightning as a weapon. Longwei's lightning storm allows it to attack in a large area with great damage. Possessing a majestic golden appearance, Longwei is a ledgendary dragon in the eyes of mankind.</p>
+												<div class="ball-4">
+													<img src="images/Ball-4.png" alt="">
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								
+							</div>
+						</div>
+
+						<div class="container tab-pane fade in active" id="menu5">
+							<div class="row">
+								
+									<div class="col-md-6 girl-char avatar-girl-desktop">
+										<img src="images/Forest_3.gif" width="358"  alt=""/>
+									</div>
+									<div class="col-md-6 girl-char avatar-girl-mobile">
+										<img src="images/Forest_3.gif" width="100%" style="object-fit: contain;" alt=""/>
+									</div>
+									<div class="col-md-6">
+										<div class="row character-text-right">
+											<div class="col-md-12">
+												<span class="title-name">Apophis</span><span class="title-class">Evil Dragon with powerful ancient powers</span>
+											</div>
+											<div class="col-md-12 text-content">
+												<p>Apolis is an enormous creature that living and ruling the vast forests. Also from there, it can control the power of the forest, create a tough and solid cover for itself. Apolis has the ability to make a barrier, sending enemies into other territories to surprise them and then attack directly. When it comes to fighting in the jungle, Apolis is invincible.</p>
+												<div class="ball-4">
+													<img src="images/Ball-4.png" alt="">
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								
+							</div>
+						</div>
+
+						<div class="container tab-pane fade" id="menu6">
+							<div class="row">
+								
+									<div class="col-md-6 girl-char avatar-girl-desktop">
+										<img src="images/Ice_3.gif" width="358" alt=""/>
+									</div>
+									<div class="col-md-6 girl-char avatar-girl-mobile">
+										<img src="images/Ice_3.gif" width="100%" alt=""/>
+									</div>
+									<div class="col-md-6">
+										<div class="row character-text-right">
+											<div class="col-md-12">
+												<span class="title-name">Orochi</span><span class="title-class">Rise of the Ice</span>
+											</div>
+											<div class="col-md-12 text-content">
+												<p>Orochi was once an evil dragon, captured and imprisoned in the sea of ice at the North Pole. After thousands of years in prison, Orochi gradually absorbed the cold energy and became more and more powerful. Orochi broke through thousands of layers of ice that imprison him and returned with great powers. Every land Orochi passed through turned into ice and Orochi's breath brought a deadly cold that was able to kill living things in a split second. </p>
+												<div class="ball-4">
+													<img src="images/Ball-4.png" alt="">
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								
+							</div>
+						</div>
+
+						<div class="container tab-pane fade" id="menu7">
+							<div class="row">
+								
+									<div class="col-md-6 girl-char avatar-girl-desktop">
+										<img src="images/Elder_Dark_3.gif" width="358" alt=""/>
+									</div>
+									<div class="col-md-6 girl-char avatar-girl-mobile">
+										<img src="images/Elder_Dark_3.gif" width="100%" alt=""/>
+									</div>
+									<div class="col-md-6">
+										<div class="row character-text-right">
+											<div class="col-md-12">
+												<span class="title-name">Ator</span><span class="title-class">Hell dragon</span>
+											</div>
+											<div class="col-md-12 text-content">
+												<p>Legend has it that, Ator was born along with heaven and earth, a five-headed dragon monster that rules over hell and darkness. With the ability to manipulate dark powers, Ator is the nightmare of all living things. Ator slaughtered to bring them all back to hell. Ator-Dark's breath was enough to make thousands of people suffer from mental to physical pain and then slowly die in despair.</p>
+												<div class="ball-4">
+													<img src="images/Ball-4.png" alt="">
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								
+							</div>
+						</div>
+
+						
+						<div class="mountain-mask">
+					 			<img src="images/mountain_mask.png" alt="">
+					 </div>
+
+					</div>
+					 
+					<!--<div class="row box-mountain">
+						<img src="images/Slice1.png" alt=""/>
+					</div>-->
+				</div>
+				<!--Content box gameplay -->
+				<div class="w-100" style="position: relative;">
+				<div id="game-play">&nbsp;</div>
+						
+					<div class="row box-gameplay">
+						<div class="container">
+							<div class="col-md-12 title">
+								<img src="images/gameplay.png" height="82px" alt=""/>
+							</div>
+							<div class="col-md-12 text">
+								<p>XDrake is a turn-based fantasy role-playing game about the battle between legions of epic heroes against enemy forces (darkness enemies and monsters) to liberate islands ruled by ancient dragons. </p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="ball-5">
+								<img src="images/Ball-5.png" alt=""/>
+							</div>
+					</div>
+					<div class="row box-mode box-mode-desktop">
+						<div class="container">
+							<div class="row">
+							<div class="col-md-4">
+								<div class="bg-mod">
+									<div class="box1 bg-image-hatch">
+										<div class="name-mode">
+											<img src="images/title-hatch.png" alt=""/>
+										</div>
+										<!--<div class="skill-mod2">
+											<img src="images/skii-mod-1.png" alt=""/>
+										</div>-->
+									</div>
+									<div class="box2">
+										<p>The Sacred Dragon Egg will hatch your Divine Dragon. Incubate eggs to evolve and awaken Dragons that are sleeping soundly and ready for the quests.  </p>
+										
+									</div>
+									<div class="box3">
+										<div class="diamon-mode">
+											<img src="images/MaskGroup.png" alt=""/>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="bg-mod">
+									<div class="box1 bg-image-farming">
+										<div class="name-mode">
+											<img src="images/title-farm.png" alt=""/>
+										</div>
+										
+									</div>
+									<div class="box2">
+										<p>Increase NFT assets for players with Farming mode with a convenient new mechanism. Join Farming to get more new NFTs and more characters to join the game with no cost to buy. </p>
+										
+									</div>
+									<div class="box3">
+										<div class="diamon-mode">
+											<img src="images/MaskGroup.png" alt=""/>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="bg-mod">
+									<div class="box1 bg-image-pvp">
+										<div class="name-mode">
+											<img src="images/title-arena.png" alt=""/>
+										</div>
+										
+									</div>
+									<div class="box2">
+										<p class="text">The fiery arena of sacred dragons with epic scenery and top-notch skill sets. Fighting with worthy opponents brings players unlimited rewards. </p>
+										
+									</div>
+									<div class="box3">
+										<div class="diamon-mode">
+											<img src="images/MaskGroup.png" alt=""/>
+										</div>
+									</div>
+									
+								</div>
+								<div class="ball-6">
+													<img src="images/Ball-6.png" alt="">
+												</div>
+							</div>	
+							
+							</div>	
+						</div>	
+					</div>
+					<!-- Moibile -->
+					<div class="row box-mode box-mode-mobile">
+						<div class="container">
+							<div class="row">
+								<div class="brands_slider_container brands_slider1_mobile">
+										<div class="owl-carousel owl-theme brands_slider1">
+											<div class="owl-item">
+												
+													<div class="bg-mod">
+														<div class="box1 bg-image-hatch">
+															<div class="name-mode">
+																<img src="images/title-hatch.png" alt=""/>
+															</div>
+															<!--<div class="skill-mod1">
+																<img src="images/skii-mod-1.png" alt=""/>
+															</div>-->
+														</div>
+														<div class="box2">
+															<p>The Sacred Dragon Egg will hatch your Divine Dragon. Incubate eggs to evolve and awaken Dragons that are sleeping soundly and ready for the quests.  </p>
+															
+														</div>
+														<div class="box3">
+															<div class="diamon-mode">
+																<img src="images/MaskGroup.png" alt=""/>
+															</div>
+														</div>
+														
+													</div>
+												
+											</div>
+											<div class="owl-item">
+												<div class="bg-mod">
+													<div class="box1 bg-image-farming">
+														<div class="name-mode">
+															<img src="images/title-farm.png" alt=""/>
+														</div>
+														
+													</div>
+													<div class="box2">
+														<p>Increase NFT assets for players with Farming mode with a convenient new mechanism. Join Farming to get more new NFTs and more characters to join the game with no cost to buy. </p>
+														
+													</div>
+													<div class="box3">
+														<div class="diamon-mode">
+															<img src="images/MaskGroup.png" alt=""/>
+														</div>
+													</div>
+													
+												</div>
+											</div>
+											<div class="owl-item">
+												<div class="bg-mod">
+													<div class="box1 bg-image-pvp">
+														<div class="name-mode">
+															<img src="images/title-arena.png" alt=""/>
+														</div>
+														
+													</div>
+													<div class="box2">
+														<p>The fiery arena of sacred dragons with epic scenery and top-notch skill sets. Fighting with worthy opponents brings players unlimited rewards. </p>
+														
+													</div>
+													<div class="box3">
+														<div class="diamon-mode">
+															<img src="images/MaskGroup.png" alt=""/>
+														</div>
+													</div>
+													
+												</div>
+											</div>
+											
+										</div> 
+										
+									</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+					
+				<!--Content box roadmap -->
+				<div class="w-100" style="position: relative;">
+					<div id="road-map">&nbsp;</div>
+					<div class="row">
+						<div class="ball-7">
+								<img src="images/Ball-7.png" alt=""/>
+							</div>
+					</div>	
+					<div class="row box-roadmap box-roadmap-desktop">
+						
+						<div class="container">
+							<div class="col-md-12 title">
+								<img src="images/roadmap.png" height="82px" alt="">
+							</div>
+							<div class="row col-md-12 text-road">
+								<div class="col-md-4">
+									<div class="nav-roadmap">
+										<div class="box box-line1">
+											<img src="images/Q22022.png" alt="">
+										</div>
+										<div class="textbox">
+											<div class="titles">
+												<span>Q4 2021</span>
+											</div>
+											<div class="description">
+												<ul>
+													<li>Launch website </li>
+													<li>Build community </li>
+													<li>Marketing campaign</li>
+													<li>Smart Contract Audit </li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="nav-roadmap">
+										<div class="box box-line2">
+											<img src="images/Q22022.png" alt="">
+										</div>
+										<div class="textbox">
+											<div class="titles">
+												<span>Q2 2022</span>
+											</div>
+											<div class="description">
+												<ul>
+													<li>XDR Listing on Dex and Cex</li>
+													<li>Launch EGG farming feature </li>
+													<li>Launch Arena PVP Matching </li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div><div class="col-md-4">
+									<div class="nav-roadmap">
+										<div class="box box-line3">
+											<img src="images/Q22022.png" alt="">
+										</div>
+										<div class="textbox">
+											<div class="titles">
+												<span>Q4 2022</span>
+											</div>
+											<div class="description">
+												<ul>
+													<li>V2 Mainnet</li>
+													<li>Native Mobile App</li>
+													<li>XDrake Creator Workshop</li>
+													<li>XDrake DAO</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>																								
+							</div>
+							<div class="row col-md-12 line-roadmap">
+									<img src="images/Line-Timelines.png" alt="">
+							</div>
+							<div class="row col-md-12 text-road">
+								<div class="nav-box-roadmap1">&nbsp;</div>
+								<div class="nav-box-roadmap2">
+									<div class="nav-roadmap">
+										<div class="textbox right-roadmap">
+											<div class="box box-line4 right-box-roadmap">
+												<img src="images/Q22023.png" alt="">
+											</div>
+											<div class="titles">
+												<span>Q1 2022</span>
+											</div>
+											<div class="description description-below">
+												<ul>
+													<li>Private Sale </li>
+													<li>Open Testnet</li>
+													<li>Public Sale</li>
+													<li>Starting Farming and Upgrade Feature</li>
+													<li>Opening Marketplace</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="nav-box-roadmap3">&nbsp;</div>
+								<div class="nav-box-roadmap4">
+									<div class="nav-roadmap">
+										
+										<div class="textbox right-roadmap">
+											<div class="box box-line5 right-box-roadmap">
+												<img src="images/Q22023.png" alt="">
+											</div>
+											<div class="titles">
+												<span>Q3 2022</span>
+											</div>
+											<div class="description description-below">
+												<ul>
+													<li>V2 Testnet (Clan, Metaverse)</li>
+													<li>Metaverse Land NFTs</li>
+													<li>Cross-chain Marketplace</li>
+													<li>Additional Chains Support</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="nav-box-roadmap5">&nbsp;</div>
+								<div class="nav-box-roadmap6">
+									<div class="nav-roadmap">
+										
+										<div class="textbox right-roadmap">
+											<div class="box box-line6 right-box-roadmap">
+												<img src="images/Q22023.png" alt="">
+											</div>
+											<div class="titles">
+												<span>Q1 2023</span>
+											</div>
+											<div class="description description-below">
+												<ul>
+													<li>Gaming Ecosystem Expansion</li>
+													<li>Game Play Update</li>
+													<li>Additional Chains Support</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>																								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<!--Content box roadmap mobile-->
+				<div class="w-100">
+					<div class="row box-roadmap box-roadmap-mobile">
+						<div class="container">
+							<div class="col-md-12 title">
+								<img src="images/roadmap.png" alt="">
+							</div>
+							<div class="row col-md-12">
+								<div class="nav-mobile-col1">
+									<img src="images/Line- Timelines-Mobile.png" alt="">
+								</div>
+								<div class="nav-mobile-col2">
+									<div class="col-md-12 text-road">
+										<div class="col-md-4">
+											<div class="nav-roadmap">
+												
+												<div class="textbox">
+													<div class="titles roadmap-text1">
+														<span>Q4 2021</span>
+													</div>
+													<div class="description">
+														<ul>
+															<li>Launch website </li>
+													<li>Build community </li>
+													<li>Marketing campaign</li>
+													<li>Smart Contract Audit </li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="nav-roadmap">
+												
+												<div class="textbox">
+													<div class="titles roadmap-text2">
+														<span>Q1 2022</span>
+													</div>
+													<div class="description">
+														<ul>
+															<li>Private Sale </li>
+													<li>Open Testnet</li>
+													<li>Public Sale</li>
+													<li>Starting Farming and Upgrade Feature</li>
+													<li>Opening Marketplace</li>														
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div><div class="col-md-4">
+											<div class="nav-roadmap">
+												
+												<div class="textbox">
+													<div class="titles roadmap-text3">
+														<span>Q2 2022</span>
+													</div>
+													<div class="description">
+														<ul>
+															<li>XDR Listing on Dex and Cex</li>
+													<li>Launch EGG farming feature </li>
+													<li>Launch Arena PVP Matching </li>															
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>																								
+									</div>
+									<div class="row col-md-12 text-road">
+										<div class="nav-box-roadmap1">&nbsp;</div>
+										<div class="nav-box-roadmap2">
+											<div class="nav-roadmap">
+												<div class="textbox right-roadmap">
+													
+													<div class="titles roadmap-text4">
+														<span>Q3 2022</span>
+													</div>
+													<div class="description description-below">
+														<ul>
+															<li>V2 Testnet (Clan, Metaverse)</li>
+													<li>Metaverse Land NFTs</li>
+													<li>Cross-chain Marketplace</li>
+													<li>Additional Chains Support</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="nav-box-roadmap3">&nbsp;</div>
+										<div class="nav-box-roadmap4">
+											<div class="nav-roadmap">
+												
+												<div class="textbox right-roadmap">
+													
+													<div class="titles roadmap-text5">
+														<span>Q4 2022</span>
+													</div>
+													<div class="description description-below">
+														<ul>
+															<li>V2 Mainnet</li>
+													<li>Native Mobile App</li>
+													<li>XDrake Creator Workshop</li>
+													<li>XDrake DAO</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="nav-box-roadmap5">&nbsp;</div>
+										<div class="nav-box-roadmap6">
+											<div class="nav-roadmap">
+												
+												<div class="textbox right-roadmap">
+													
+													<div class="titles roadmap-text6">
+														<span>Q1 2023</span>
+													</div>
+													<div class="description description-below">
+														<ul>
+															<li>Gaming Ecosystem Expansion</li>
+													<li>Game Play Update</li>
+													<li>Additional Chains Support</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>																								
+									</div>
+							
+								</div>
+							</div>
+						</div>	
+
+					</div>
+				</div>
+				<!--Content box token -->
+				<div class="w-100">
+					<div id="Tokenomics" class="row box-token">
+						<div class="container">
+							<div class="col-md-12">
+								<div class="title-token">
+									<img src="images/Title-Token.png" height="82px" alt=""/>
+								</div>
+							</div>
+							<div class="row col-md-12">
+								<div class="col-md-6">
+									<div class="bg-token">
+										<img src="images/Group2635.png" alt=""/>
+									</div>
+								</div>
+								<div class="col-md-6 text-token">
+									<div class="col-md-12">
+										<span>XDrake Token </span>
+									</div>
+									<div class="token-desktop">
+										<div class="row col-md-12">									
+												<div class="col-md-6">
+													<ul>
+														<li>Total supply:</li>
+														<li>Symbol:</li>
+														<li>Decimals: </li>
+													</ul>
+												</div>
+												<div class="col-md-6">
+													<ul>
+														<li>10,000,000,000</li>
+														<li>XDR</li>
+														<li>18</li>
+													</ul>
+												</div>
+											</div>
+									</div>
+									<!-- Moibile -->
+									<div class="token-mobile">
+										<div class="">									
+												<div class="col-md-6">
+													<ul>
+														<li>Total supply:</li>
+														<li>Symbol:</li>
+														<li>Decimals: </li>
+													</ul>
+												</div>
+												<div class="col-md-6">
+													<ul>
+														<li>10,000,000,000</li>
+														<li>XDR</li>
+														<li>18</li>
+													</ul>
+												</div>
+											</div>
+									</div>
+									
+								</div>
+							</div>
+							<!--Content box bal-8 -->
+							<div class="w-100">
+								<div class="row">
+									<div class="ball-8">
+											<img src="images/Ball-8.png" alt=""/>
+										</div>
+								</div>	
+							</div>
+							<div class="row col-md-12 allocation-circle-desktop">
+								
+									<div class="row col-md-12 text-allocation">
+										<div class="col-md-6 allocation-text">
+											<!--<span>Token Allocation </span>
+											<div class="box-process-seed-round">
+												<div class="seed-round">&nbsp;</div>
+												<div class="text1"><b>2%</b> Seed Round</div>
+											</div>
+											<div class="box-process-seed-round">
+												<div class="private-insvestor">&nbsp;</div>
+												<div class="text2"><b>9%</b> Private Investor</div>
+											</div>
+											<div class="box-process-seed-round">
+												<div class="public-round">&nbsp;</div>
+												<div class="text3"><b>1%</b> Public Round (IDO Price)</div>
+											</div>
+											<div class="box-process-seed-round">
+												<div class="mining-rewards">&nbsp;</div>
+												<div class="text4"><b>33%</b> Mining Rewards</div>
+											</div>
+											<div class="box-process-seed-round">
+												<div class="eco-system">&nbsp;</div>
+												<div class="text5"><b>18%</b> Eco-System & Treasury</div>
+											</div>
+											<div class="box-process-seed-round">
+												<div class="marketing">&nbsp;</div>
+												<div class="text6"><b>12%</b> Marketing & Partnerships</div>
+											</div>
+											<div class="box-process-seed-round">
+												<div class="team">&nbsp;</div>
+												<div class="text7"><b>20%</b> Team & Advisors</div>
+											</div>
+											
+											<div class="box-process-seed-round">
+												<div class="exchange">&nbsp;</div>
+												<div class="text9"><b>5%</b> Exchange Liquidity</div>
+											</div>-->
+											<img src="images/tokenomics-2.png" width="100%" alt=""/>
+											
+										</div>
+										<div class="col-md-6 allocation-circle">
+											<img src="images/tokenomics.png" width="412" alt=""/>
+											<div class="ball-9">
+												<img src="images/Ball-9.png" alt=""/>
+											</div>
+										</div>
+									</div>
+							</div>
+							<!-- Moibile -->
+							<div class="allocation-circle-mobile">
+									<div class=" col-md-12 allocation-circle-text">
+											<span>Token Allocation </span>
+									</div>
+									<div class="col-md-6 allocation-circle">
+											<img src="images/tokenomics.png" alt=""/>
+											<div class="ball-9">
+												<img src="images/Ball-9.png" alt=""/>
+											</div>
+										</div>
+									<div class="row col-md-12 text-allocation">
+										<div class="col-md-6 allocation-text">
+											<img src="images/tokenomics-2.png" width="100%" alt=""/>
+											<!--<div class="box-process-seed-round">
+												<div class="seed-round">&nbsp;</div>
+												<div class="text1"><b>2%</b> Seed Round</div>
+											</div>
+											<div class="box-process-seed-round">
+												<div class="private-insvestor">&nbsp;</div>
+												<div class="text2"><b>9%</b> Private Investor</div>
+											</div>
+											<div class="box-process-seed-round">
+												<div class="public-round">&nbsp;</div>
+												<div class="text3"><b>1%</b> Public Round (IDO Price)</div>
+											</div>
+											<div class="box-process-seed-round">
+												<div class="mining-rewards">&nbsp;</div>
+												<div class="text4"><b>33%</b> Mining Rewards</div>
+											</div>
+											<div class="box-process-seed-round">
+												<div class="eco-system">&nbsp;</div>
+												<div class="text5"><b>18%</b> Eco-System & Treasury</div>
+											</div>
+											<div class="box-process-seed-round">
+												<div class="marketing">&nbsp;</div>
+												<div class="text6"><b>12%</b> Marketing & Partnerships</div>
+											</div>
+											<div class="box-process-seed-round">
+												<div class="team">&nbsp;</div>
+												<div class="text7"><b>20%</b> Team & Advisors</div>
+											</div>
+											<div class="box-process-seed-round">
+												<div class="exchange">&nbsp;</div>
+												<div class="text9"><b>5%</b> Exchange Liquidity</div>
+											</div>-->
+											
+											
+										</div>
+										
+									</div>
+							</div>
+							
+						</div>
+					</div>
+			    </div>
+						
+				<!--Content box powered -->
+				<!--<div class="w-100">
+					<div class="row box-powered">
+						<div class="container">
+							<div class="col-md-12">
+								<div class="title-powered">
+									<img src="images/powered-title.png" alt=""/>
+								</div>
+							</div>
+							<div class="row partner-powered">
+								<div class="col-md-4">
+									<img src="images/BinanceSmart Chain1.png" alt=""/>
+								</div>
+								<div class="col-md-4">
+									<img src="images/BinanceSmart Chain2.png" alt=""/>
+								</div>
+								<div class="col-md-4">
+									<img src="images/BinanceSmart Chain3.png" alt=""/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>-->
+				<!--Content box bal-10 -->
+				<div class="w-100">
+					<div class="row">
+						<div class="ball-10">
+								<img src="images/Ball-10.png" alt=""/>
+							</div>
+					</div>	
+				</div>
+				<!--Content box core team -->
+				<!--<div class="w-100" style="float: left;">
+					<div id="team" class="row box-coreteam">
+						<div class="container">
+							<div class="col-md-12">
+								<div class="title-coreteam">
+									<img src="images/coreteam.png" alt=""/>
+									
+								</div>
+							</div>
+							<div class="col-md-12 nav-core-mobile">
+								<div class="nav-core">
+									<div class="avatar">
+										<img src="images/team/VictorHoang.png" alt=""/>
+									</div>
+									<div class="name-core">
+										<span class="name">Victor hoang</span>
+										<span class="job">CEO</span>
+									</div>
+								</div>
+								<div class="nav-core">
+									<div class="avatar">
+										<img src="images/team/LouisLuu.png" alt=""/>
+									</div>
+									<div class="name-core">
+										<span class="name">LOUIS LUU</span>
+										<span class="job">COO</span>
+									</div>
+								</div>
+								<div class="nav-core">
+									<div class="avatar">
+										<img src="images/team/HaiNgo.png" alt=""/>
+									</div>
+									<div class="name-core">
+										<span class="name">HAI NGO</span>
+										<span class="job">CTO</span>
+									</div>
+								</div>
+								<div class="nav-core">
+									<div class="avatar">
+										<img src="images/team/nam.png" alt=""/>
+									</div>
+									<div class="name-core">
+										<span class="name">Nam Hoang</span>
+										<span class="job">CMO</span>
+									</div>
+								</div>
+								<div class="nav-core">
+									<div class="avatar">
+										<img src="images/team/BinhTran.png" alt=""/>
+									</div>
+									<div class="name-core">
+										<span class="name">BInh tran</span>
+										<span class="job">PRODUCT &nbsp;DIRECTOR </span>
+									</div>
+								</div>
+								<div class="nav-core">
+									<div class="avatar">
+										<img src="images/team/Phucnguyen.png" alt=""/>
+									</div>
+									<div class="name-core">
+										<span class="name">Phuc Nguyen</span>
+										<span class="job">TECHNICAL &nbsp;ADVISOR</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>-->
+				<!--Content box partner -->
+				<div class="w-100">
+					<div id="partners" class="row box-partner ">
+						<div class="container">
+							<div class="col-md-12">
+								<div class="title-partner">
+									<img src="images/Title-Partner.png" height="82px" alt=""/>
+								</div>
+							</div>
+							<div class="col-md-12 box-partner-desktop">
+								<div class="row col-md-12 partner-box">
+									<div class="col-md-4">
+										<img src="images/BIGGLOBALv1.png" width="262" alt=""/>
+									</div>
+									<div class="col-md-4">
+										<img style="padding-top: 15px;object-fit: contain;" src="images/KVventures.png" width="280" height="72" alt=""/>
+									</div>
+									
+									<div class="col-md-4">
+										<img src="images/META.png" width="300" height="82" alt=""/>
+										<div class="ball-11">
+													<img src="images/Ball-11.png" alt="">
+												</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 box-partner-desktop" style="margin-top: 40px;">
+								<div class="row col-md-12 partner-box">
+									<div class="col-md-3">&nbsp;</div>
+									<div class="col-md-3">
+											<img src="images/BIGGLOBALv2.png" style="margin-left: -70px;" width="262" alt=""/>
+										</div>
+										
+										<div class="col-md-3">
+											<img class="partner-box-bottom" src="images/BIGGLOBALv3.png" width="262" alt=""/>
+										</div>
+										<div class="col-md-3">&nbsp;</div>
+									</div>
+							</div>
+							<!-- Moibile -->
+							<div class="col-md-12 box-partner-mobile">
+								<div class="partner-box">
+									<div class="icon-box-partner">
+										<img src="images/BIGGLOBALv1.png" alt=""/>
+									</div>
+									<div class="icon-box-partner">
+										<img style="object-fit: contain;object-fit: contain;height: 44px;margin-bottom: 10px;" src="images/KVventures.png" alt=""/>
+									</div>
+									<div class="icon-box-partner">
+										<img src="images/META.png" alt=""/>
+									</div>
+									<div class="icon-box-partner box-partner-label">
+										<img src="images/BIGGLOBALv3.png" alt=""/>
+									</div>
+									<div class="icon-box-partner-end">
+										<img src="images/BIGGLOBALv2.png" alt=""/>
+									</div>
+								</div>
+							</div>
+							
+							
+						</div>
+						
+					</div>
+				</div>
+				<!--Content box bal-12 -->
+				<div class="w-100" style="float: left;">
+					<div class="row">
+						<div class="ball-12">
+								<img src="images/Ball-12.png" alt=""/>
+							</div>
+					</div>	
+				</div>
+				<!--Content box audited by -->
+				<div class="w-100">
+					<div class="row box-sudited">
+						<div class="container">
+							<div class="col-md-12">
+								<div class="title-audited-by">
+									<img src="images/audited-by.png" height="82px" alt=""/>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="verichains">
+									<img src="images/verichains.png" alt=""/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Content box bal-13 -->
+				<div class="w-100" style="float: left;">
+					<div class="row">
+						<div class="ball-13">
+								<img src="images/Ball-13.png" alt=""/>
+							</div>
+					</div>	
+				</div>
+				
+				<!--Footer -->
+	<section class="footer">
+		<div class="w-100">
+			<div class="bg-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="nav-footer">
+								<div class="logo"><img src="images/Logo.png" width="150px" alt=""/></div>
+								
+							</div>
+							<div class="nav-footer">
+								<p>Metaverse Game is the future of Games and Blockchain. We and XDrake are ready to bring users a beautiful, exciting game, and full of new things. Choose for yourself a Divine Dragon to start your colorful journey of discovery and hunt for precious treasures!</p>
+							</div>
+							<div class="nav-footer">
+								<div class="copy"><span>© 2022, XDrake</span></div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="nav-category">
+								<div class="text"><!--<span>category</span>--></div>
+								<div class="links">
+									<ul>
+										<li><a href="#nfts-dragon">NFTs Dragon</a></li>
+										<li><a href="#game-play">Gameplay</a></li>
+										<li><a href="#road-map">Roadmap</a></li>
+										<li><a href="#Tokenomics">Tokenomics</a></li>
+										<!--<li><a href="wpp/our-team.html">Team</a></li>-->
+										<li><a href="#partner">Partner</a></li>
+										<li><a href="https://docs.xdrake.io">Whitepaper</a></li>
+										<li><a href="https://xdrake.io/XDrake_Pitchdeck.pdf">Pitchdeck</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="nav-social">
+								<div class="text"><!--<span>social</span>--><img src="images/social.png" alt=""/></div>
+								<div class="follow">
+									<a href="#"><img src="images/social-1.png" alt=""/></a>
+									<a href="#"><img src="images/social-2.png" alt=""/></a>
+									<a href="#"><img src="images/social-3.png" alt=""/></a>
+									<a href="#"><img src="images/social-3.png" alt=""/></a>
+									<a href="#"><img src="images/social-4.png" alt=""/></a>
+									<a href="#"><img src="images/social-5.png" alt=""/></a>
+									
+								</div>
+								<div class="follow">
+									
+									<div class="copy copy-right-mobile"><span>© 2022, XDrake</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+				
+			</div>
+		</div>
+		
+	</section>
+	
+  </body>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  
+  <script src="js/my_custom.js?v=123458"></script>
+  <script type="text/javascript">
+  	$(function(){
+  		$('.nav-link').click(function(){
+  			$('.nav-item').removeClass('active');
+  			$(this).parent().addClass('active');
+  		});
+
+  		$('.drake-logo').click(function(){
+  			$('.nav-item').removeClass('active');
+  		});
+  	});
+
+  	//$(document).on("scroll", onScroll);
+    function onScroll(event){
+        var scrollPos = $(document).scrollTop() + 100;
+        $('.nav-item a').each(function () {
+            var currLink = $(this);
+            var href = currLink.attr("href");
+            if(href.indexOf('#') != -1) {
+	            var refElement = $(currLink.attr("href"));
+	            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+	                $('.nav-item').removeClass("active");
+	                currLink.parent().addClass("active");
+	            }
+            }
+        });
+        if(scrollPos <= 400) {
+        	$('.nav-item').removeClass('active');
+        }
+    }
+  </script>
+
+</html>
